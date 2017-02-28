@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>易观千帆</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../src/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/pro.css">
+    <script src="../components/jquery/dist/jquery.min.js"></script>
+    <script src="../js/pro.js"></script>
+</head>
+<body>
+    <header class="pro-header clearfix">
+        <div class="h-left">
+            <a href="#">
+                <img src="../src/imgs/pro/index-logo-zh-cn.png" alt="" class="logo">
+            </a>
+        </div>
+        <div class="h-right">
+            <div class="hfa-model">
+                <a href="#" title="首页" class="fa fa-home hfa-model-logo"></a>
+            </div>
+            <div class="hfa-model">
+                <a href="#" title="应用月度Top榜" class="fa fa-signal hfa-model-logo"></a>
+            </div>
+            <div class="hfa-model">
+                <a href="#" title="关注的App" class="fa fa-star hfa-model-logo"></a>
+            </div>
+            <div class="hfa-model hfa-model-notice J-hfa-model-notice">
+                <a href="#" title="" class="fa fa-bell hfa-model-logo"></a>
+                <div class="hfa-model-bell J-hfa-model-bell">
+                    <div class="h-triangle-bell h-triangle "></div>
+                    <div class="hfa-model-bell-body">
+                        <div class="bell-head clearfix">
+                            <span>千帆公告</span>
+                            <span class="bell-head-right"><a href="#">more ></a></span>
+                        </div>
+                        <div class="bell-notice">
+                            <h4>易观千帆v4.9升级通知！</h4>
+                            <time>2017-2-22</time>
+                        </div>
+                        <p class="bell-list-head">
+                            [新增指标]
+                        </p>
+                        <p class="bell-list-intro">
+                            <em>|</em>
+                            <span>APP排名趋势分析</span>
+                        </p>
+                        <p class="bell-list-content">
+                            入口：APP规模分析 -> 规模排名分析
+                        </p>
+                        <p class="bell-list-content">
+                            分析：支持查看app或对比多个app的 全网 / app所属一级领域 / app所属二级领域 内排名走势
+                        </p>
+
+                        <p class="bell-list-head">
+                            [千帆移动端]
+                        </p>
+                        <p class="bell-list-intro">
+                            <em>|</em>
+                            <span>千帆移动端Ios/Android端都已经更新到了最新版本，大家可以通过在应用市场上检索安装或通过易观千帆WEB端右侧工具栏中的二维码扫码直接下载体验喔~</span>
+                        </p>
+                        <p class="bell-list-head">
+                            [产品优化]
+                        </p>
+                        <p class="bell-list-intro">
+                            <em>|</em>
+                            <span>本次优化中对第三方应用及游戏的基本信息做了更新及导入</span>
+                        </p>
+                        <p class="bell-list-content">
+                            新增：582个APP的基本信息
+                        </p>
+                        <p class="bell-list-content">
+                            更新：18045个APP的基本信息
+                        </p>
+                        <p class="bell-list-intro">
+                            <em>|</em>
+                            <span>APP评级模型中数字底色调优</span>
+                        </p>
+                        <p class="bell-list-intro">
+                            <em>|</em>
+                            <span>分时点指标数据下载表格优化</span>
+                        </p>
+                        <p class="bell-list-intro">
+                            <em>|</em>
+                            <span>其他相关优化</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hfa-model">
+                <a href="#" title="帮助中心" class="fa fa-question-circle hfa-model-logo"></a>
+            </div>
+            <div class="hfa-model hfa-model-user J-hfa-model-user">
+                <a href="#" title="" class="fa fa-user hfa-model-logo"></a>
+                <div class="hfa-model-triangle-user J-hfa-model-triangle-user">
+                    <div class="h-triangle-user h-triangle "></div>
+                    <div class="pro-header-user">
+                        <span>登录</span>
+                        <span>注册</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hfa-model">
+               <a href="#">English</a>
+            </div>
+        </div>
+        <div class="h-messageshowbox">
+            <div class="messagebox">
+                <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="4" class="scroll-write">
+                   <p>1 . 小帆重磅上线"APP评级模型"，10大维度全方位评价APP！12月06日当日所有付费用户均可免费试用喔～12月06日后会对本板块单独定价收费，快来体验吧！
+                      2 . 小帆开始按工作日T+3更新日度数据咯~今年内所有付费客户均可享受按T+3查看日度数据,2017年会对更新速度更快的数据进行单独定价,届时付费用户可按T＋7查看日度数据.</p>
+                </marquee>
+            </div>
+        </div>
+    </header>
+    <section class="pro-section-first">
+        <figure>
+            <div class="figure-img">
+                <img src="../src/imgs/pro/home-banner.png" alt="banner">
+            </div>
+            <figcaption class="fig-left">
+                <img src="../src/imgs/pro/home-banner-text-zh-cn.png" >
+                <label class="fig-input">
+                    <input type="text" class="fig-left-input" placeholder="APP、领域、开发商、发行商、标签">
+                    <a href="#" class="fa fa-search fig-input-logo"></a>
+                </label>
+            </figcaption>
+            <figcaption class="fig-right">
+                <a href="#">
+                    <span class="fig-right-img"></span>
+                    <img src="../src/imgs/pro/jiao.png" alt="jiao">
+                </a>
+            </figcaption>
+            <figcaption class="fig-bottom J-fig-bottom">
+                <img src="../src/imgs/pro/ico-review.png" alt="ico">
+            </figcaption>
+        </figure>
+    </section>
+    <section class="pro-section-two clearfix">
+        <ul>
+            <li class="border-r border-b">
+                <p class="first-line"><span class="J-num1">0</span>个</p>
+                <p class="second-line">二级领域</p>
+                <img src="../src/imgs/pro/data-icon-1.png" alt="data">
+            </li>
+            <li class="border-r border-b">
+                <p class="first-line"><span class="J-num2">7524</span>个</p>
+                <p class="second-line">功能标签个数</p>
+                <img src="../src/imgs/pro/data-icon-2.png" alt="data">
+            </li>
+            <li class="border-b">
+                <p class="first-line">
+                    <span class="J-num3">12322</span>个
+                    <i class="bub">
+                        <em class="bubble">+214</em>
+                        <em class="bubble-tach"></em>
+                    </i>
+                </p>
+                <p class="second-line">开发商个数</p>
+                <img src="../src/imgs/pro/data-icon-3.png" alt="data">
+            </li>
+            <li class="border-r">
+                <p class="first-line"><span class="J-num4">173</span>个</p>
+                <p class="second-line">开发商地域标签</p>
+                <img src="../src/imgs/pro/data-icon-4.png" alt="data">
+            </li>
+            <li class="border-r">
+                <p class="first-line">
+                    <span class="J-num5">34938</span><span>+</span>个
+                    <i  class="bub">
+                        <em class="bubble">+408</em>
+                        <em class="bubble-tach"></em>
+                    </i>
+                </p>
+                <p class="second-line">产品发布应用个数</p>
+                <img src="../src/imgs/pro/data-icon-5.png" alt="data">
+            </li>
+            <li>
+                <p class="first-line">
+                    <span class="J-num6">10000</span><span>+</span>个
+                    <i class="bub">
+                        <em class="bubble">+174</em>
+                        <em class="bubble-tach"></em>
+                    </i>
+                </p>
+                <p class="second-line">产品发布游戏个数</p>
+                <img src="../src/imgs/pro/data-icon-6.png" alt="data">
+            </li>
+        </ul>
+    </section>
+    <footer class="pro-foot clearfix">
+        <div class="footer">
+            <div class="footer-show">
+                <p>本周推荐</p>
+                <img src="../src/imgs/pro/home-footer-icon-en.png" alt="footrer" class="footer-head-img">
+            </div>
+            <div class="footer-hide">
+                <div class="footer-body">
+                    <div class="two-code J-two-code">
+                        <img src="../src/imgs/pro/ewm-2.jpg" alt="">
+                    </div>
+                    <div class="footer-left">
+                        <h2>
+                    <span>
+                        热搜APP
+                    </span>
+                            <em>Apps</em>
+                        </h2>
+                        <div class="list-mod">
+                            <ul>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2028050.png" alt="">
+                                    <a href="#" title="微博">微博</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2028051.png" alt="">
+                                    <a href="#" title="QQ">QQ</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2014013.png" alt="">
+                                    <a href="#" title="彩票">彩票</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2022613.png" alt="">
+                                    <a href="#" title="微博">微博</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2020828.png" alt="">
+                                    <a href="#" title="百度地图">百度地图</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2031042.png" alt="">
+                                    <a href="#" title="咕咚">咕咚</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2040726.png" alt="">
+                                    <a href="#" title="记账">记账</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2023279.png" alt="">
+                                    <a href="#" title="今日头条">今日头条</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2004881.png" alt="">
+                                    <a href="#" title="爱动漫">爱动漫</a>
+                                </li>
+                                <li>
+                                    <img src="../src/imgs/pro/64_64_2024463.png" alt="">
+                                    <a href="#" title="陌陌">陌陌</a>
+                                </li>
+                            </ul>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-middle">
+                        <h2>
+                    <span>
+                        推荐领域
+                    </span>
+                            <em>Categories</em>
+                        </h2>
+                        <div class="list-mod">
+                            <ul>
+                                <li>
+                                    <a href="#" title="无线管理/WIFI管理">安全管理</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="优化工具">优化工具</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="儿童教育">儿童教育</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="移动电台">移动电台</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="系统自带">系统自带</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="生活工具">生活工具</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="手机锁屏">手机锁屏</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="运动健康">运动健康</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="外卖/订餐">外卖/订餐</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="更多"><span>更多</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <h2>
+                    <span>
+                        千帆榜单
+                    </span>
+                            <em>Ranklist</em>
+                        </h2>
+                        <div class="list-mod-other">
+                            <ul>
+                                <li>
+                                    <a href="#" class="fa fa-trophy"></a>
+                                    <a href="#" title="移动应用排行">移动应用排行</a>
+                                    <i>free</i>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-paper-plane"></a>
+                                    <a href="#" title=" 游戏月度Top榜"> 游戏月度Top榜</a>
+                                    <i>free</i>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-rocket"></a>
+                                    <a href="#" title="上市公司排行">上市公司排行</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-binoculars"></a>
+                                    <a href="#" title="发现潜力APP">发现潜力APP</a>
+                                    <i>free</i>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-magnet"></a>
+                                    <a href="#" title="用户粘性榜单">用户粘性榜单</a>
+                                    <i>free</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        <ul class="footer-bottom-left-ul">
+                            <li>
+                                <em>其他帮助</em>
+                            </li>
+                            <li>
+                                <img src="../src/imgs/pro/ico_ft_s1.png" alt="">
+                                <a href="#">帮助中心</a>
+                            </li>
+                            <li>
+                                <img src="../src/imgs/pro/ico_ft_s2.png" alt="">
+                                <a href="#">申请试用</a>
+                            </li>
+                        </ul>
+                        <p>
+                            <em>联系我们</em>
+                            <span>客户服务电话：4006-515-715</span>
+                            <span>会员服务邮箱：service@analysys.com.cn</span>
+                            <span>市场合作电话：010-64666565-380</span>
+                        </p>
+                    </div>
+
+                    <div class="footer-bottom-right">
+                        <div class="footer-bottom-img">
+                            <span class="two-code-triangle J-two-code-triangle"></span>
+                            <a href="" class="share-img-a"><span class="share-img share-img1 J-share-img1"></span></a>
+                            <a href="" class="share-img-a"><span class="share-img share-img2 J-share-img2"></span></a>
+                        </div>
+                        <p>Copyright&copy;2017 易观版权所有 京ICP备15065619号 京公网安备110105005360号</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="pro-conduct-page J-pro-conduct-page">
+        <div class=" conduct-page-o">
+            <div class="conduct-page-ii">
+                <div class="conduct-page-i">
+                    <div class="conduct-page-close J-conduct-page-close">
+                        <a href="#" class=" fa fa-remove"></a>
+                    </div>
+                    <div class="conduct-page-img">
+                        <img src="../src/imgs/pro/review_1.png" alt="">
+                        <div class="conduct-title">
+                            <p>全面开放免费注册试用 真正的大数据体验零门槛</p>
+                        </div>
+                    </div>
+                    <div class="conduct-page-img">
+                        <img src="../src/imgs/pro/review_2.png" alt="">
+                    </div>
+                    <div class="conduct-page-img">
+                        <img src="../src/imgs/pro/review_3.png" alt="">
+                    </div>
+                    <div class="conduct-page-img">
+                        <img src="../src/imgs/pro/review_4.png" alt="">
+                    </div>
+                    <div class="conduct-page-img">
+                        <img src="../src/imgs/pro/review_5.png" alt="">
+                    </div>
+                    <div class="conduct-page-img-aside J-conduct-page-img-aside">
+                        <img src="../src/imgs/pro/review-aside.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

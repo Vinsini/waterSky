@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/regist.css">
+    <link rel="stylesheet" href="../src/font-awesome/css/font-awesome.css">
+</head>
+<body>
+<div class="regist-container">
+    <img src="../src/imgs/regist/logo-and-name.png">
+    <div class="regist-box">
+        <form class="registr-form">
+            <p>注册</p>
+            <div class="regist-father">
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="请输入邮箱地址" required>
+            </div>
+            <div class="regist-father">
+                <i class="fa fa-lock"></i>
+                <input type="password" id="pwd" placeholder="请输入密码" required>
+            </div>
+            <div class="regist-father">
+                <i class="fa fa-lock"></i>
+                <input type="password" id="repwd" placeholder="请再次输入密码" required>
+            </div>
+            <div>
+                <input type="submit" id="J-submit" value="注册" class="regist-submit">
+            </div>
+            <p class="regist-p">
+                <a href="javascript:void(0)" class="regist-phone">通过手机号注册</a>
+            </p>
+        </form>
+        <div class="regist-foot">
+            已有账号？<a href="javascript:void(0)">立即登录</a>
+        </div>
+
+    </div>
+</div>
+<script>
+    function get(id){return document.getElementById(id)}
+    window.onload=function() {
+        get("repwd").onblur =function () {
+            if(repwd.value!=pwd.value){
+                repwd.value='';
+                alert('两次密码不一致')
+            }
+        }
+    }
+</script>
+<script src="../components/jquery/dist/jquery.js"></script>
+</body>
+</html>

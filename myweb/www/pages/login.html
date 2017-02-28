@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/login.css"/>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../src/font-awesome/css/font-awesome.css" />
+    <script src="../components/jquery/dist/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+	<div class="login-contain">
+		<div class="login-contain-bgimg"></div>
+		<div class="login-main">
+			<img class="logo" src="../src/imgs/login/logo-and-name.png"/>
+			<div class="login-hide">
+				<div class="login-h3">
+					<span>登录</span>
+					<div class="l-tab">
+						<a href="#">
+							<img src="../src/imgs/login/user-login.png"/>
+						</a>
+						<img class="roll-img roll-h" src="../src/imgs/login/jiao.png"/>
+					</div>
+				</div>
+				<div class="l-code"><img src="../src/imgs/login/login.jpg" alt="" /></div>
+				<p>请使用<span>&nbsp;微信&nbsp;</span>扫描二维码登录</p>
+			</div>
+			<div class="login-show">
+				<form action="">
+					<h3>登录
+						<div class="l-tab">
+							<a href="#">
+								<img src="../src/imgs/login/scan-code.png"/>
+							</a>
+							<img class="roll-img roll-s" src="../src/imgs/login/jiao.png"/>
+						</div>
+					</h3>
+					<div class="full-input">
+						<i class="fa fa-user"></i>
+						<input type="text" placeholder="请输入用户名/邮箱"/>
+					</div>
+					<div class="full-input">
+						<i class="fa fa-lock"></i>
+						<input type="text" placeholder="请输入密码"/>
+					</div>
+					<div class="auto-forget">
+						<label><input type="checkbox" /><span>下次免登陆</span></label>
+						<a href="#">忘记密码?</a>
+					</div>
+					<input type="button"  value="登录" class="sub"/>
+					<div class="box-food">
+						<p>还没有账号？<a href="#">立即注册</a></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

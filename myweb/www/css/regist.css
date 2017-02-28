@@ -1,0 +1,83 @@
+.regist-container {
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/imgs/regist/search_bg.jpg);
+  background-size: contain;
+  overflow-y: hidden;
+}
+.regist-container img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 40px;
+}
+.regist-box {
+  width: 340px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.registr-form {
+  padding: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.registr-form p {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.registr-form input {
+  width: 280px;
+  height: 38px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  text-indent: 40px;
+  font-size: 12px;
+}
+.registr-form .regist-submit {
+  border: none;
+  color: #fff;
+  text-indent: 0;
+  background-color: #0098e1;
+}
+.registr-form i {
+  color: #C6D3DD;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+}
+.regist-submit:hover {
+  background-color: #1bb0f7;
+}
+.regist-father {
+  position: relative;
+}
+.regist-father .fa-lock {
+  font-size: 18px;
+}
+.regist-p {
+  text-align: right;
+}
+.regist-p a {
+  color: #1bb0f7;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.regist-foot {
+  height: 50px;
+  line-height: 50px;
+  color: #666;
+  text-align: center;
+  font-size: 13px;
+  background-color: #f0f4f7;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 4px 4px;
+}
+.regist-foot a {
+  text-decoration: underline;
+  color: #1bb0f7;
+}
